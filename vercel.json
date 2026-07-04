@@ -18,6 +18,10 @@
             "dest": "/favicon.ico"
         },
         {
+            "src": "/__health",
+            "dest": "/api/health.php"
+        },
+        {
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
